@@ -90,10 +90,12 @@
     <keyboard-shortcut first-keystroke="shift meta W" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="meta F4" />
     <keyboard-shortcut first-keystroke="meta W" />
   </action>
   <action id="CloseEditor" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta F4" />
+  </action>
   <action id="CloseWindow" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta SPACE" />
@@ -603,6 +605,9 @@
   </action>
   <action id="IDEtalk.Rename" />
   <action id="Images.ShowThumbnails" />
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
   <action id="Images.Thumbnails.ToggleRecursive" />
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="shift alt P" />
